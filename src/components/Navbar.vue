@@ -1,14 +1,21 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="success">
+    <b-navbar
+      toggleable="lg"
+      type="dark"
+      variant="dark"
+      class="border-bottom border-success border-5"
+    >
       <div class="container rounded">
         <b-navbar-brand href="#" class="d-flex align-items-center"
           ><img
             alt="Vue logo"
             src="../assets/logo.png"
-            width="50"
+            width="30"
             class="mr-2"
-          /><span class="fw-800">NAS Restaurant</span></b-navbar-brand
+          /><span class="fw-bold styleCustom"
+            >NAS Restaurant</span
+          ></b-navbar-brand
         >
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -28,6 +35,23 @@
             <b-nav-item href="#">
               <router-link to="/food" class="nav-link"
                 >Food</router-link
+              ></b-nav-item
+            >
+            <b-nav-item href="#">
+              <router-link to="/about-us" class="nav-link"
+                >About Us</router-link
+              ></b-nav-item
+            >
+            <b-nav-item href="#">
+              <router-link to="/contact-us" class="nav-link"
+                >Contact Us</router-link
+              ></b-nav-item
+            >
+
+            <b-nav-item href="#">
+              <router-link to="/keranjang" class="nav-link">
+                <b-icon-bag></b-icon-bag
+                ><span class="badge badge-warning ml-2">0</span></router-link
               ></b-nav-item
             >
             <!-- <b-nav-form>

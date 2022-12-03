@@ -1,0 +1,20 @@
+* {
+  font-family: 'Mulish', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+.router-link-exact-active {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.styleCustom {
+  font-weight: bold;
+}
+
+.navbar {
+  border-bottom: 8px solid #41b883 !important;
+}

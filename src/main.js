@@ -3,6 +3,7 @@ import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import './assets/css/navbar.css'
 
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
